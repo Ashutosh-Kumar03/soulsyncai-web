@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SoulSyncAI — Your Soul, Finally Understood. An AI that reads the emotional frequencies beneath your words.">
+  <meta name="theme-color" content="#04020f">
+  <title>SoulSyncAI — Your Soul, Finally Understood</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&family=Inter:wght@200;300;400&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ═══════════════════ CURSOR ═══════════════════ -->
+  <div id="cur"></div>
+  <div id="cur2"></div>
+
+  <!-- ═══════════════════ COSMOS CANVAS ═══════════════════ -->
+  <canvas id="cosmos"></canvas>
+
+  <!-- ═══════════════════════════════════════════════════════
+       NAVIGATION
+  ═══════════════════════════════════════════════════════ -->
+  <nav id="navbar">
+    <div class="logo">
+      <div class="logo-dot"></div>
+      SoulSync<span>AI</span>
+    </div>
+    <ul class="nav-center">
+      <li><a href="#features">Experience</a></li>
+      <li><a href="#science">Science</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#stories">Stories</a></li>
+      <li><a href="#founding-team">Founding Team</a></li>
+    </ul>
+    <div class="nav-right">
+      <div class="nav-badge" role="button" tabindex="0" data-action="signin">Sign In</div>
+      <button class="nav-btn" type="button" data-scroll="#pricing">Begin Free</button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════════════════ -->
+  <section class="hero" id="home">
+
+    <!-- Nebula atmosphere -->
+    <div class="nebula nb1"></div>
+    <div class="nebula nb2"></div>
+    <div class="nebula nb3"></div>
+
+    <!-- 3D Orb Ring System -->
+    <div class="orb-system">
+      <div class="ring r5"></div>
+      <div class="ring r4"></div>
+      <div class="ring er1"></div>
+      <div class="ring er2"></div>
+      <div class="ring r3"></div>
+      <div class="ring r2"></div>
+      <div class="ring r1"></div>
+    </div>
+
+    <!-- Hero Copy -->
+    <div class="hero-content">
+      <div class="hero-kicker">
+        <span class="hero-kicker-line"></span>
+        Emotional Intelligence · Reimagined
+        <span class="hero-kicker-line"></span>
+      </div>
+      <h1 class="hero-title">
+        <span class="line">Your Soul,</span>
+        <span class="line"><em>Finally Understood</em></span>
+      </h1>
+      <p class="hero-sub">
+        An AI that reads the emotional frequencies beneath your words —
+        and reflects back what your mind has been trying to tell you all along.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-cosmos" type="button" data-scroll="#waitlist">Begin Your Journey</button>
+        <button class="btn-ghost" type="button" data-scroll="#science">
+          <span class="play-icon">▶</span>
+          Watch the Vision
+        </button>
+      </div>
+    </div>
+
+    <!-- Scroll cue -->
+    <div class="scroll-cue">
+      <div class="scroll-mouse"><div class="scroll-wheel"></div></div>
+      <div class="scroll-label">Scroll to explore</div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       METRICS STRIP
+  ═══════════════════════════════════════════════════════ -->
+  <div class="metrics rv">
+    <div class="metric">
+      <span class="metric-val" data-target="98" data-suffix="%">98%</span>
+      <div class="metric-lbl">Emotional Accuracy</div>
+    </div>
+    <div class="metric">
+      <span class="metric-val" data-target="127" data-suffix="+">127+</span>
+      <div class="metric-lbl">Emotion Dimensions</div>
+    </div>
+    <div class="metric">
+      <span class="metric-val" data-target="3" data-suffix="M+">3M+</span>
+      <div class="metric-lbl">Insights Generated</div>
+    </div>
+    <div class="metric">
+      <span class="metric-val" data-target="4.9" data-suffix="★" data-decimal="1">4.9★</span>
+      <div class="metric-lbl">Beta User Rating</div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FEATURES
+  ═══════════════════════════════════════════════════════ -->
+  <section id="features">
+    <div class="features-wrap">
+      <div class="features-head rv">
+        <span class="sec-tag">Core Intelligence</span>
+        <h2 class="sec-title">Built from the<br><em>inside out</em></h2>
+      </div>
+      <div class="features-grid rv2">
+
+        <div class="fc">
+          <div class="fc-glow" style="background:#8b5cf6"></div>
+          <div class="fc-num">01</div>
+          <div class="fc-icon" style="background:rgba(139,92,246,.12)">🧠</div>
+          <h3 class="fc-title">Deep Emotional Mapping</h3>
+          <p class="fc-desc">Our proprietary model goes 7 layers beneath surface sentiment — detecting nuance, contradiction, and emotional undercurrents invisible to the naked eye.</p>
+          <div class="fc-link" role="button" tabindex="0" data-scroll="#science">Explore <span class="fc-link-arr">→</span></div>
+        </div>
+
+        <div class="fc">
+          <div class="fc-glow" style="background:#06b6d4"></div>
+          <div class="fc-num">02</div>
+          <div class="fc-icon" style="background:rgba(6,182,212,.12)">💬</div>
+          <h3 class="fc-title">Soul Sessions</h3>
+          <p class="fc-desc">Speak freely. SoulSyncAI listens without judgment — then mirrors your patterns, surfaces blind spots, and gently guides you toward profound inner clarity.</p>
+          <div class="fc-link" role="button" tabindex="0" data-scroll="#science">Explore <span class="fc-link-arr">→</span></div>
+        </div>
+
+        <div class="fc">
+          <div class="fc-glow" style="background:#f472b6"></div>
+          <div class="fc-num">03</div>
+          <div class="fc-icon" style="background:rgba(244,114,182,.12)">📊</div>
+          <h3 class="fc-title">EI Score Dashboard</h3>
+          <p class="fc-desc">Your dynamic Emotional Intelligence score evolves daily across 5 dimensions: empathy, self-awareness, resilience, social attunement, and emotional regulation.</p>
+          <div class="fc-link" role="button" tabindex="0" data-scroll="#science">Explore <span class="fc-link-arr">→</span></div>
+        </div>
+
+        <div class="fc">
+          <div class="fc-glow" style="background:#fbbf24"></div>
+          <div class="fc-num">04</div>
+          <div class="fc-icon" style="background:rgba(251,191,36,.1)">🌙</div>
+          <h3 class="fc-title">Nightly Rituals</h3>
+          <p class="fc-desc">A 5-minute guided wind-down synthesizing your day's emotional data into personalized rituals — breathing, journaling, or micro-meditations.</p>
+          <div class="fc-link" role="button" tabindex="0" data-scroll="#science">Explore <span class="fc-link-arr">→</span></div>
+        </div>
+
+        <div class="fc">
+          <div class="fc-glow" style="background:#8b5cf6"></div>
+          <div class="fc-num">05</div>
+          <div class="fc-icon" style="background:rgba(139,92,246,.12)">🔐</div>
+          <h3 class="fc-title">Radical Privacy</h3>
+          <p class="fc-desc">Your soul data is sacred. End-to-end encrypted. On-device voice processing. Zero data sold — ever. We built the trust layer before anything else.</p>
+          <div class="fc-link" role="button" tabindex="0" data-scroll="#waitlist">Our Promise <span class="fc-link-arr">→</span></div>
+        </div>
+
+        <div class="fc">
+          <div class="fc-glow" style="background:#06b6d4"></div>
+          <div class="fc-num">06</div>
+          <div class="fc-icon" style="background:rgba(6,182,212,.12)">🤝</div>
+          <h3 class="fc-title">Relationship Sync</h3>
+          <p class="fc-desc">Invite a trusted person — partner, friend, or coach — to explore your shared emotional dynamics and build deeper, more authentic connection.</p>
+          <div class="fc-link" role="button" tabindex="0" data-scroll="#science">Explore <span class="fc-link-arr">→</span></div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       WHY SOULSYNC — DEEP VISUAL SECTION
+  ═══════════════════════════════════════════════════════ -->
+  <section class="deep-section" id="science">
+    <div class="deep-inner">
+
+      <div class="deep-visual rv">
+        <!-- Session card -->
+        <div class="glass-card gc1">
+          <div class="gc-label">Live Soul Session · Processing</div>
+          <div class="gc-quote">
+            "I didn't realize I was carrying grief I never processed.
+            SoulSync showed me what I couldn't see in myself."
+          </div>
+          <div class="gc-user">
+            <div class="gc-avatar">
+              <div style="width:34px;height:34px;border-radius:50%;background:linear-gradient(135deg,#8b5cf6,#f472b6)"></div>
+            </div>
+            <div class="gc-name">Priya M. &nbsp;·&nbsp; Beta Tester, Mumbai</div>
+          </div>
+          <div class="wave-container" id="wc"></div>
+        </div>
+
+        <!-- EI Score card -->
+        <div class="glass-card gc2 ei-card">
+          <div class="gc-label">Emotional Intelligence Score</div>
+          <div class="ei-score-row">
+            <div class="ei-big">84</div>
+            <div class="ei-denom">/100</div>
+            <div class="ei-trend">↑ 12 pts this month</div>
+          </div>
+          <div class="ei-sub">Updated · May 1, 2026</div>
+          <div class="ei-bar-row">
+            <div class="ei-bar-label">Self-Awareness</div>
+            <div class="ei-bar-track"><div class="ei-bar-fill" style="width:88%;background:linear-gradient(90deg,#8b5cf6,#c4b5fd)"></div></div>
+            <div class="ei-bar-pct">88%</div>
+          </div>
+          <div class="ei-bar-row">
+            <div class="ei-bar-label">Empathy</div>
+            <div class="ei-bar-track"><div class="ei-bar-fill" style="width:86%;background:linear-gradient(90deg,#06b6d4,#8b5cf6)"></div></div>
+            <div class="ei-bar-pct">86%</div>
+          </div>
+          <div class="ei-bar-row">
+            <div class="ei-bar-label">Resilience</div>
+            <div class="ei-bar-track"><div class="ei-bar-fill" style="width:82%;background:linear-gradient(90deg,#f472b6,#8b5cf6)"></div></div>
+            <div class="ei-bar-pct">82%</div>
+          </div>
+          <div class="ei-bar-row">
+            <div class="ei-bar-label">Regulation</div>
+            <div class="ei-bar-track"><div class="ei-bar-fill" style="width:79%;background:linear-gradient(90deg,#fbbf24,#06b6d4)"></div></div>
+            <div class="ei-bar-pct">79%</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="deep-text rv2">
+        <span class="sec-tag">Why SoulSync</span>
+        <h2>The AI that<br>truly <em>listens</em></h2>
+        <p>Most apps track your mood. SoulSyncAI understands it. We built an emotional intelligence layer that doesn't just detect — it interprets, contextualizes, and grows with you over time.</p>
+        <p>Every conversation builds a richer picture of who you are, what drives you, and where you're holding tension you didn't even know existed.</p>
+        <div class="pill-wrap">
+          <div class="pill">Voice Analysis</div>
+          <div class="pill">Pattern Recognition</div>
+          <div class="pill">Growth Tracking</div>
+          <div class="pill">Trauma-Informed AI</div>
+          <div class="pill">24/7 Companion</div>
+          <div class="pill">Multi-Language</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HOW IT WORKS
+  ═══════════════════════════════════════════════════════ -->
+  <section class="hiw-wrap">
+    <div class="hiw-inner">
+      <div class="hiw-head rv">
+        <span class="sec-tag">The Process</span>
+        <h2 class="sec-title">Four steps to<br><em>inner clarity</em></h2>
+      </div>
+      <div class="timeline rv2">
+        <div class="tl-step">
+          <div class="tl-num"><div class="tl-num-inner">Ⅰ</div></div>
+          <h4 class="tl-title">Share</h4>
+          <p class="tl-desc">Talk, type, or voice note. No structure needed — just your authentic self, exactly as you are.</p>
+        </div>
+        <div class="tl-step">
+          <div class="tl-num"><div class="tl-num-inner">Ⅱ</div></div>
+          <h4 class="tl-title">Sense</h4>
+          <p class="tl-desc">127+ emotional dimensions processed in real-time, detecting patterns invisible to the conscious mind.</p>
+        </div>
+        <div class="tl-step">
+          <div class="tl-num"><div class="tl-num-inner">Ⅲ</div></div>
+          <h4 class="tl-title">Reflect</h4>
+          <p class="tl-desc">Receive personalized insight — a mirror held gently to your inner world, free of judgment.</p>
+        </div>
+        <div class="tl-step">
+          <div class="tl-num"><div class="tl-num-inner">Ⅳ</div></div>
+          <h4 class="tl-title">Grow</h4>
+          <p class="tl-desc">Track emotional evolution. Watch your EI score rise as you build new inner habits week by week.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       TESTIMONIALS
+  ═══════════════════════════════════════════════════════ -->
+  <section id="stories">
+    <div class="testi-wrap">
+      <div class="rv" style="text-align:center;margin-bottom:5rem">
+        <span class="sec-tag">Early Voices</span>
+        <h2 class="sec-title">What beta users<br><em>feel</em></h2>
+      </div>
+      <div class="testi-grid rv2">
+
+        <div class="tc">
+          <div class="tc-stars">
+            <div class="tc-star"></div><div class="tc-star"></div>
+            <div class="tc-star"></div><div class="tc-star"></div><div class="tc-star"></div>
+          </div>
+          <div class="tc-quote">"I've tried every mindfulness app. Nothing has ever made me feel truly seen until SoulSync. It's like therapy but without the judgment."</div>
+          <div class="tc-user">
+            <div class="tc-avatar" style="background:linear-gradient(135deg,#8b5cf6,#06b6d4)"></div>
+            <div><div class="tc-name">Harshit Goyal</div><div class="tc-role">Software Engineer · Rajasthan</div></div>
+          </div>
+        </div>
+
+        <div class="tc">
+          <div class="tc-stars">
+            <div class="tc-star"></div><div class="tc-star"></div>
+            <div class="tc-star"></div><div class="tc-star"></div><div class="tc-star"></div>
+          </div>
+          <div class="tc-quote">"My burnout was invisible to me. SoulSync surfaced the patterns behind my exhaustion and gave me language for what I was feeling."</div>
+          <div class="tc-user">
+            <div class="tc-avatar" style="background:linear-gradient(135deg,#f472b6,#8b5cf6)"></div>
+            <div><div class="tc-name">Aman Mishra</div><div class="tc-role">Startup Founder · Bangalore</div></div>
+          </div>
+        </div>
+
+        <div class="tc">
+          <div class="tc-stars">
+            <div class="tc-star"></div><div class="tc-star"></div>
+            <div class="tc-star"></div><div class="tc-star"></div><div class="tc-star"></div>
+          </div>
+          <div class="tc-quote">"We started using SoulSync together as a couple. The Relationship Sync feature opened conversations we'd never had in 6 years."</div>
+          <div class="tc-user">
+            <div class="tc-avatar" style="background:linear-gradient(135deg,#fbbf24,#f472b6)"></div>
+            <div><div class="tc-name">Raj Verma</div><div class="tc-role">Beta Users · Delhi</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOUNDING TEAM
+  ═══════════════════════════════════════════════════════ -->
+  <section id="founding-team">
+    <div class="testi-wrap">
+      <div class="rv" style="text-align:center;margin-bottom:5rem">
+        <span class="sec-tag">Founding Team</span>
+        <h2 class="sec-title">Built with vision,<br><em>heart and purpose</em></h2>
+      </div>
+      <div class="testi-grid rv2">
+
+        <div class="tc">
+          <div class="tc-quote">"SoulSyncAI is my dream, my vision, and my commitment to building emotionally intelligent AI for real human understanding."</div>
+          <div class="tc-user">
+            <div class="tc-avatar" style="background:linear-gradient(135deg,#8b5cf6,#06b6d4)"></div>
+            <div><div class="tc-name">Ashutosh Kumar</div><div class="tc-role">Founder · Product & Vision</div></div>
+          </div>
+        </div>
+
+        <div class="tc">
+          <div class="tc-quote">"Building the emotional and creative direction behind SoulSyncAI with empathy, clarity, and human-first thinking."</div>
+          <div class="tc-user">
+            <div class="tc-avatar" style="background:linear-gradient(135deg,#f472b6,#8b5cf6)"></div>
+            <div><div class="tc-name">Vinita Gurjar</div><div class="tc-role">Co-founder · Emotional Direction</div></div>
+          </div>
+        </div>
+
+        <div class="tc">
+          <div class="tc-quote">"Supporting the journey of SoulSyncAI as it grows from an ambitious idea into a serious AI product vision."</div>
+          <div class="tc-user">
+            <div class="tc-avatar" style="background:linear-gradient(135deg,#fbbf24,#06b6d4)"></div>
+            <div><div class="tc-name">Himanshu Sharma</div><div class="tc-role">Co-founder · Growth & Support</div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       PRICING
+  ═══════════════════════════════════════════════════════ -->
+  <section id="pricing">
+    <div class="pricing-wrap">
+      <div class="pricing-head rv">
+        <span class="sec-tag">Investment in Self</span>
+        <h2 class="sec-title">Choose your<br><em>depth</em></h2>
+      </div>
+      <div class="pricing-grid rv2">
+
+        <div class="pc">
+          <div class="pc-tier">Free Forever</div>
+          <div class="pc-name">Spark</div>
+          <div class="pc-price"><sup>₹</sup>0</div>
+          <div class="pc-per">No card required</div>
+          <ul class="pc-list">
+            <li>5 Soul Sessions / month</li>
+            <li>Basic EI Score</li>
+            <li>Daily mood check-in</li>
+            <li class="dim">Relationship Sync</li>
+            <li class="dim">Advanced analytics</li>
+            <li class="dim">Voice analysis</li>
+          </ul>
+          <button class="pc-btn" type="button" data-scroll="#waitlist">Start Free</button>
+        </div>
+
+        <div class="pc hot">
+          <div class="pc-badge">✦ Most Popular</div>
+          <div class="pc-tier">For Individuals</div>
+          <div class="pc-name">Soul</div>
+          <div class="pc-price"><sup>₹</sup>1499</div>
+          <div class="pc-per">per month, billed annually</div>
+          <ul class="pc-list">
+            <li>Unlimited Soul Sessions</li>
+            <li>Full EI Score Dashboard</li>
+            <li>Voice emotion analysis</li>
+            <li>Nightly reflection rituals</li>
+            <li>Relationship Sync (1 person)</li>
+            <li class="dim">Enterprise integrations</li>
+          </ul>
+          <button class="pc-btn lit" type="button" data-scroll="#waitlist">Begin Your Journey</button>
+        </div>
+
+        <div class="pc">
+          <div class="pc-tier">For Organizations</div>
+          <div class="pc-name">Sync Pro</div>
+          <div class="pc-price"><sup>₹</sup>2999</div>
+          <div class="pc-per">per user/month · teams of 5+</div>
+          <ul class="pc-list">
+            <li>Everything in Soul</li>
+            <li>Team emotional dynamics</li>
+            <li>Manager dashboard</li>
+            <li>HR & wellness integrations</li>
+            <li>Custom ritual programs</li>
+            <li>Dedicated support</li>
+          </ul>
+          <button class="pc-btn" type="button" data-scroll="#waitlist" data-contact="sales">Contact Sales</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════════════
+       CTA / WAITLIST
+  ═══════════════════════════════════════════════════════ -->
+  <section class="cta-wrap" id="waitlist">
+    <div class="cta-cosmos"></div>
+    <div class="cta-ring1"></div>
+    <div class="cta-ring2"></div>
+    <div class="cta-inner rv">
+      <span class="cta-eyebrow">The Movement Begins</span>
+      <h2 class="cta-title">Ready to meet<br>your <em>true self?</em></h2>
+      <p class="cta-sub">Join thousands of early adopters building emotional intelligence as a lifelong practice.</p>
+      <div class="waitlist-form">
+        <input class="waitlist-input" type="email" placeholder="your@email.com" id="emailInput">
+        <button class="waitlist-btn" id="waitlistBtn">Join Waitlist</button>
+      </div>
+      <div class="waitlist-note">✦ &nbsp; No spam. Ever. Unsubscribe anytime. &nbsp; ✦</div>
+    </div>
+  </section>
+
+
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════ -->
+  <footer>
+    <div class="ft-logo">SoulSync<span>AI</span></div>
+    <ul class="ft-links">
+      <li><a href="#privacy" data-action="privacy">Privacy</a></li>
+      <li><a href="#terms" data-action="terms">Terms</a></li>
+      <li><a href="#stories">Blog</a></li>
+      <li><a href="#founding-team">Founding Team</a></li>
+     
+     <li><a href="mailto:akashukumar472@gmail.com?subject=Contact%20from%20SoulSyncAI%20Website">Contact</a></li>
+    </ul>
+    <div class="ft-copy">© 2026 SoulSyncAI. All rights reserved.</div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
